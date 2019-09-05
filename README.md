@@ -32,4 +32,3 @@ Result:
 - code is separated correctly, each functionality is in corresponding module/entry point
 #### Not OK
 - generated chunks don't contain runtime module (meaning they can only work if all other modules are present)
--  
