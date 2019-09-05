@@ -9,6 +9,7 @@ A minimal working sample to demonstrate splitting angular app with webpack
 
 - checkout the repository: `git clone https://github.com/anbaran/webpack-splitting-angular.git`
 - `cd webpack-splitting-angular`
+- run `npm install`
 
 ### Case 1 - without manual split code - `case1-webpack.config.js`
 
