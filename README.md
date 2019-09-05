@@ -15,9 +15,9 @@ A minimal working sample to demonstrate splitting angular app with webpack
 run: `npx webpack --config case1-webpack.config.js --progress --display-error-details`
 
 Result:
-### OK 
+#### OK 
 - generated chunks contain runtime module (it is ok, they can run even if other chunk is missing)
-## Not OK
+#### Not OK
 - chunks are not separated correctly i.e. 
 - common-ui.bundle.js is empty (contains only runtime module)
 - new bundle other than in entry point was generated (common-ui~feature1~feature2~main.bundle.js)
@@ -28,8 +28,8 @@ Result:
 run: `npx webpack --config case2-webpack.config.js --progress --display-error-details`
 
 Result: 
-### OK 
+#### OK 
 - code is separated correctly, each functionality is in corresponding module/entry point
-## Not OK
+#### Not OK
 - generated chunks don't contain runtime module (meaning they can only work if all other modules are present)
 -  
